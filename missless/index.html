@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2563EB" />
+
+  <title>Missless | The AI Front Office That Never Misses a Lead</title>
+  <meta name="description" content="Missless answers every call, replies to every message, and books appointments 24/7. The AI front office for teams that refuse to lose another lead." />
+
+  <meta name="keywords" content="AI front office, AI receptionist, AI sales agent, 24/7 AI answering service, AI appointment booking, missed call recovery, AI lead qualification" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://missless.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://missless.com/" />
+  <meta property="og:title" content="Missless | The AI Front Office That Never Misses a Lead" />
+  <meta property="og:description" content="Missless answers every call, replies to every message, and books appointments 24/7." />
+  <meta property="og:image" content="https://missless.com/assets/og-image.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Missless | The AI Front Office That Never Misses a Lead" />
+  <meta name="twitter:description" content="Missless answers every call, replies to every message, and books appointments 24/7." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Fonts: Geist Sans + Instrument Serif (accent) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://missless.com/#organization",
+        "name": "Missless",
+        "url": "https://missless.com",
+        "logo": "https://missless.com/assets/logo.svg",
+        "description": "Missless is the AI front office that answers calls, replies to messages, and books appointments 24/7 so businesses never lose a lead.",
+        "sameAs": [
+          "https://www.linkedin.com/company/missless",
+          "https://twitter.com/missless"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://missless.com/#website",
+        "url": "https://missless.com",
+        "name": "Missless",
+        "publisher": { "@id": "https://missless.com/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://missless.com/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Missless AI Front Office",
+        "operatingSystem": "Web, iOS, Android",
+        "applicationCategory": "BusinessApplication",
+        "description": "AI-powered front office platform that handles inbound calls, lead qualification, appointment booking, and multi-channel messaging.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "0",
+          "description": "Custom pricing based on call volume, channels, and integrations."
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Does Missless sound like a robot?", "acceptedAnswer": { "@type": "Answer", "text": "No. The voices are natural, context-aware, and trained on real conversations. Most callers cannot tell they are speaking with AI." }},
+          { "@type": "Question", "name": "Can Missless transfer calls to a real person?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Missless can hand off a call mid-conversation with a full summary, so your team picks up exactly where the AI left off." }},
+          { "@type": "Question", "name": "What happens after hours, on weekends, or on holidays?", "acceptedAnswer": { "@type": "Answer", "text": "Missless answers, qualifies, books, and follows up around the clock. You can set different behaviors for evenings, weekends, and holidays." }},
+          { "@type": "Question", "name": "Will Missless work with my existing phone number?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. You can keep your current number and route calls through Missless, or use a new dedicated line." }},
+          { "@type": "Question", "name": "How long does setup take?", "acceptedAnswer": { "@type": "Answer", "text": "Most businesses go live in 5 to 7 business days. Larger multi-location or white-label setups may take longer." }},
+          { "@type": "Question", "name": "Is my customer data secure?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Calls, transcripts, and customer data are encrypted in transit and at rest. Missless follows industry-standard practices for storage and access control." }},
+          { "@type": "Question", "name": "Can I cancel anytime?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. There are no long-term contracts. If Missless is not working for you, you are not locked in." }}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Primary">
+      <a href="/" class="nav-brand" aria-label="Missless home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12C3 7.029 7.029 3 12 3s9 4.029 9 9-4.029 9-9 9c-1.756 0-3.395-.503-4.78-1.373L3 21l1.373-4.22A8.96 8.96 0 0 1 3 12Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12" cy="12" r="2" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text">missless<span class="brand-dot">.</span></span>
+      </a>
+
+      <ul class="nav-links" role="menubar">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#industries">Industries</a></li>
+        <li><a href="/pricing">Pricing</a></li>
+        <li><a href="/white-label">White Label</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="/demo" class="btn btn-ghost">Sign in</a>
+        <a href="/demo" class="btn btn-primary">Book a demo</a>
+      </div>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="hero-orb hero-orb-a"></div>
+        <div class="hero-orb hero-orb-b"></div>
+      </div>
+
+      <div class="container hero-inner">
+
+        <div class="hero-content">
+          <div class="hero-pill reveal" data-reveal-delay="0">
+            <span class="pulse-dot"></span>
+            <span>Live • Answering calls right now</span>
+          </div>
+
+          <h1 id="hero-heading" class="hero-title reveal" data-reveal-delay="80">
+            Never miss
+            <span class="hero-title-accent">another lead</span>
+            <br />
+            <span class="hero-title-light">again</span>
+          </h1>
+
+          <p class="hero-sub reveal" data-reveal-delay="160">
+            Missless is the AI front office that answers your calls, replies to your messages, and books appointments around the clock. Your customers get an instant response. Your team gets their time back.
+          </p>
+
+          <div class="hero-ctas reveal" data-reveal-delay="240">
+            <a href="/demo" class="btn btn-primary btn-lg">
+              Book a demo
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="#hear-it-in-action" class="btn btn-secondary btn-lg">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M8 5v14l11-7L8 5Z" fill="currentColor"/>
+              </svg>
+              See Missless in action
+            </a>
+          </div>
+
+          <ul class="hero-trust reveal" data-reveal-delay="320">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Live in 5 to 7 days
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              No long-term contracts
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Works with your current phone number
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hero Call Widget -->
+        <div class="hero-visual reveal" data-reveal-delay="200" aria-hidden="true">
+          <div class="call-card">
+            <div class="call-header">
+              <div class="call-avatar">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="call-info">
+                <div class="call-name">Incoming call</div>
+                <div class="call-number">+1 (415) 555 0188</div>
+              </div>
+              <div class="call-status">
+                <span class="pulse-dot pulse-dot-blue"></span>
+                AI live
+              </div>
+            </div>
+
+            <div class="call-waveform" id="waveform">
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+
+            <div class="call-transcript" id="transcript">
+              <div class="bubble bubble-caller">
+                <span class="bubble-label">Caller</span>
+                Hi, my AC stopped working. Can someone come out today?
+              </div>
+              <div class="bubble bubble-ai">
+                <span class="bubble-label">Missless AI</span>
+                Absolutely. I have a technician available at 2:00 PM. Should I lock that in?
+              </div>
+              <div class="bubble bubble-caller">
+                <span class="bubble-label">Caller</span>
+                Yes please.
+              </div>
+            </div>
+
+            <div class="call-confirmation" id="confirmation">
+              <div class="confirm-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <div class="confirm-title">Appointment booked</div>
+                <div class="confirm-meta">Today at 2:00 PM • Synced to calendar</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating stat cards -->
+          <div class="float-card float-card-a">
+            <div class="float-number">1m 47s</div>
+            <div class="float-label">Average call to booking</div>
+          </div>
+          <div class="float-card float-card-b">
+            <div class="float-number">24/7</div>
+            <div class="float-label">Never sleeps. Never on hold.</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Proof bar at bottom of hero -->
+      <div class="container">
+        <ul class="proof-bar reveal" data-reveal-delay="400">
+          <li>
+            <span class="proof-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <strong>Every call answered</strong>
+              <span>Nights, weekends, and holidays included</span>
+            </div>
+          </li>
+          <li>
+            <span class="proof-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+            <div>
+              <strong>Under 60-second response</strong>
+              <span>Across voice, SMS, and chat</span>
+            </div>
+          </li>
+          <li>
+            <span class="proof-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+            <div>
+              <strong>Direct calendar booking</strong>
+              <span>Confirmations sent automatically</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== PROBLEM ===== -->
+    <section class="section section-problem" aria-labelledby="problem-heading">
+      <div class="container narrow">
+        <span class="eyebrow">The hidden tax</span>
+        <h2 id="problem-heading" class="section-title">
+          The cost of a missed call is bigger than you think
+        </h2>
+        <p class="section-lead">
+          Most businesses lose 20 to 40 percent of inbound leads before a real conversation ever happens. Calls go to voicemail while your team is on a job site, in a meeting, or simply offline. Forms sit unread. Quote requests cool off. By the time someone follows up, the customer has already booked with whoever picked up first.
+        </p>
+        <p class="section-lead">
+          Hiring more staff is slow and expensive. Voicemail loses you the lead. Generic chatbots frustrate the people you actually want to win.
+        </p>
+        <p class="section-lead section-lead-emphasis">
+          There is a better way to run the front of your business, and it does not involve adding more headcount.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== SOLUTION ===== -->
+    <section class="section section-solution" aria-labelledby="solution-heading">
+      <div class="container narrow center">
+        <span class="eyebrow">The solution</span>
+        <h2 id="solution-heading" class="section-title">
+          Meet Missless, your <em>AI front office</em>
+        </h2>
+        <p class="section-lead">
+          Missless is not a chatbot. It is not a call-forwarding service. It is a complete AI system that handles every first touch, every qualification, every booking, and every follow-up, fully under your brand.
+        </p>
+        <p class="section-lead">
+          While your team focuses on the work that actually closes revenue, Missless makes sure no opportunity quietly slips away.
+        </p>
+        <a href="#how-it-works" class="link-arrow">
+          See how it works
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== HEAR IT IN ACTION ===== -->
+    <section class="section section-audio" id="hear-it-in-action" aria-labelledby="audio-heading">
+      <div class="container">
+        <div class="audio-grid">
+          <div class="audio-text">
+            <span class="eyebrow">Hear it in action</span>
+            <h2 id="audio-heading" class="section-title">
+              Listen to a real Missless conversation
+            </h2>
+            <p class="section-lead">
+              Pick an industry and hear how Missless handles a live customer call from greeting to booked appointment in under two minutes.
+            </p>
+            <p class="caption">
+              Voices are generated by Missless. Names and details are illustrative.
+            </p>
+            <a href="/demo" class="btn btn-primary">Book a demo to hear it on your real workflow</a>
+          </div>
+
+          <div class="audio-player">
+            <div class="audio-tabs" role="tablist">
+              <button class="audio-tab active" role="tab" data-industry="home">Home services</button>
+              <button class="audio-tab" role="tab" data-industry="finance">Financial services</button>
+              <button class="audio-tab" role="tab" data-industry="health">Healthcare</button>
+              <button class="audio-tab" role="tab" data-industry="realestate">Real estate</button>
+              <button class="audio-tab" role="tab" data-industry="retail">Retail</button>
+              <button class="audio-tab" role="tab" data-industry="education">Education</button>
+            </div>
+
+            <div class="audio-body">
+              <button class="audio-play" aria-label="Play sample">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M8 5v14l11-7L8 5Z" fill="currentColor"/></svg>
+              </button>
+              <div class="audio-meta">
+                <div class="audio-title" id="audioTitle">Home services • 30 seconds</div>
+                <div class="audio-wave">
+                  <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="audio-time">0:00 / 0:30</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section class="section section-how" id="how-it-works" aria-labelledby="how-heading">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">How it works</span>
+          <h2 id="how-heading" class="section-title">
+            From first hello to booked appointment, in under two minutes
+          </h2>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-number">01</span>
+            <h3 class="step-title">A customer reaches out:</h3>
+            <p>By phone, text, web form, or chat. Any time. Any channel.</p>
+          </li>
+          <li class="step">
+            <span class="step-number">02</span>
+            <h3 class="step-title">Missless responds instantly:</h3>
+            <p>The AI greets them, understands what they need, and asks the right qualifying questions in a natural conversation.</p>
+          </li>
+          <li class="step">
+            <span class="step-number">03</span>
+            <h3 class="step-title">The appointment lands on your calendar:</h3>
+            <p>Booking, confirmation, reminders, and CRM updates all happen automatically. Your team gets a clean handoff with full context.</p>
+          </li>
+        </ol>
+
+        <p class="how-tagline">
+          No missed calls. No cold leads. No manual follow-up.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCTS ===== -->
+    <section class="section section-products" id="products" aria-labelledby="products-heading">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">The platform</span>
+          <h2 id="products-heading" class="section-title">
+            Six products, one connected front office
+          </h2>
+          <p class="section-lead">
+            Each module works on its own. Together, they replace the patchwork of disconnected tools most teams are stuck with today.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <a href="/ai-receptionist" class="product-card">
+            <div class="product-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="product-title">AI Receptionist:</h3>
+            <p>Answers inbound calls 24/7 with natural conversation, smart transfers, and zero hold time. Built to sound like the best person on your team.</p>
+            <span class="product-link">Explore AI Receptionist <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+
+          <a href="/ai-sales-agent" class="product-card">
+            <div class="product-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="product-title">AI Sales Agent:</h3>
+            <p>Calls and messages new leads in under 60 seconds. Qualifies, handles objections, and books consultations while interest is still hot.</p>
+            <span class="product-link">Explore AI Sales Agent <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+
+          <a href="/ai-messaging" class="product-card">
+            <div class="product-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="product-title">AI Messaging:</h3>
+            <p>SMS, web chat, WhatsApp, and email handled by one intelligent system that keeps every conversation moving forward.</p>
+            <span class="product-link">Explore AI Messaging <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+
+          <a href="/ai-workflow-engine" class="product-card">
+            <div class="product-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 12h6m6 0h6M12 3v6m0 6v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3 class="product-title">AI Workflow Engine:</h3>
+            <p>Connects your CRM, calendar, and phone system so every action triggers the next one automatically.</p>
+            <span class="product-link">Explore AI Workflow Engine <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+
+          <a href="/ai-intelligence" class="product-card">
+            <div class="product-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18M7 14l4-4 4 4 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="product-title">AI Intelligence:</h3>
+            <p>Call transcripts, summaries, conversion analytics, and trend insights. Know exactly what is working and what to fix.</p>
+            <span class="product-link">Explore AI Intelligence <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+
+          <a href="/white-label" class="product-card">
+            <div class="product-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M20.59 13.41 13.42 20.58a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="1.5" fill="currentColor"/></svg>
+            </div>
+            <h3 class="product-title">White Label:</h3>
+            <p>Agencies and resellers launch the full Missless platform under their own brand, with their own pricing and full control.</p>
+            <span class="product-link">Explore White Label <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INDUSTRIES ===== -->
+    <section class="section section-industries" id="industries" aria-labelledby="industries-heading">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Industries</span>
+          <h2 id="industries-heading" class="section-title">
+            Built for every customer-facing business
+          </h2>
+          <p class="section-lead">
+            Missless adapts to how your industry actually sells, schedules, and serves customers. The conversation flows, qualifying questions, and booking rules are all tailored to your workflow.
+          </p>
+        </div>
+
+        <div class="industry-grid">
+          <a href="/solutions/home-services" class="industry-card">
+            <span class="industry-tag">Home services</span>
+            <p>HVAC, plumbing, electrical, roofing, cleaning, and landscaping teams that need to win the job before a competitor calls back.</p>
+          </a>
+          <a href="/solutions/financial-services" class="industry-card">
+            <span class="industry-tag">Financial services</span>
+            <p>Advisors, brokers, insurance agents, and wealth managers who respond to qualified prospects the moment they raise their hand.</p>
+          </a>
+          <a href="/solutions/healthcare" class="industry-card">
+            <span class="industry-tag">Healthcare and dental</span>
+            <p>Practices handling patient inquiries, scheduling, and reminders without pulling staff away from patient care.</p>
+          </a>
+          <a href="/solutions/real-estate" class="industry-card">
+            <span class="industry-tag">Real estate</span>
+            <p>Agents and property managers handling buyer inquiries, tenant questions, and viewings around the clock.</p>
+          </a>
+          <a href="/solutions/retail" class="industry-card">
+            <span class="industry-tag">Retail and e-commerce</span>
+            <p>Brands offering instant support, order help, and product guidance to recover abandoned conversations.</p>
+          </a>
+          <a href="/solutions/education" class="industry-card">
+            <span class="industry-tag">Education and training</span>
+            <p>Schools and programs handling enrollment questions, info requests, and consultation booking.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRUST / BUILT FOR ===== -->
+    <section class="section section-trust" aria-labelledby="trust-heading">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Built for the businesses that cannot afford a missed call</span>
+          <h2 id="trust-heading" class="section-title">
+            Purpose-built for six demanding industries
+          </h2>
+          <p class="section-lead">
+            Every workflow, script, and integration is shaped around how each industry actually operates, not a generic template.
+          </p>
+        </div>
+
+        <div class="trust-features">
+          <div class="trust-feature">
+            <div class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Bank-grade encryption</h3>
+            <p>Calls, transcripts, and customer data encrypted in transit and at rest.</p>
+          </div>
+          <div class="trust-feature">
+            <div class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" stroke="currentColor" stroke-width="2"/><rect x="14" y="3" width="7" height="7" stroke="currentColor" stroke-width="2"/><rect x="3" y="14" width="7" height="7" stroke="currentColor" stroke-width="2"/><rect x="14" y="14" width="7" height="7" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3>Enterprise infrastructure</h3>
+            <p>Built on the same carrier-grade backbone trusted by Fortune 500 communication providers.</p>
+          </div>
+          <div class="trust-feature">
+            <div class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Compliance-ready architecture</h3>
+            <p>Designed for regulated industries, with structured logging and access controls.</p>
+          </div>
+          <div class="trust-feature">
+            <div class="trust-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 22a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Human-in-the-loop controls</h3>
+            <p>You approve every script, escalation rule, and conversation policy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY MISSLESS ===== -->
+    <section class="section section-why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why Missless</span>
+          <h2 id="why-heading" class="section-title">
+            The difference between answering and converting
+          </h2>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card">
+            <h3>Real conversations, not scripts:</h3>
+            <p>Missless adapts to how your customers actually talk, including accents, interruptions, and follow-up questions a typical chatbot would fumble.</p>
+          </article>
+          <article class="why-card">
+            <h3>Trained on your business:</h3>
+            <p>Your services, your pricing, your booking rules, your tone. Missless sounds like part of your team because it learns like one.</p>
+          </article>
+          <article class="why-card">
+            <h3>Works with your stack:</h3>
+            <p>CRMs, calendars, phone systems, and marketing tools. If you already use it, Missless almost certainly already connects to it.</p>
+          </article>
+          <article class="why-card">
+            <h3>You stay in control:</h3>
+            <p>Approve every script, set business hours, define escalation rules, and review every conversation. Nothing happens without your sign-off.</p>
+          </article>
+          <article class="why-card why-card-feature">
+            <h3>Designed to pay for itself:</h3>
+            <p>For most clients, two to three additional bookings per month cover the entire cost. Everything above that is profit you would have lost.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INTEGRATIONS ===== -->
+    <section class="section section-integrations" aria-labelledby="integrations-heading">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Integrations</span>
+          <h2 id="integrations-heading" class="section-title">
+            Connects to the tools you already run on
+          </h2>
+          <p class="section-lead">
+            Missless plugs into your CRM, calendar, phone provider, and marketing stack. No rebuild required. No migration headaches.
+          </p>
+        </div>
+
+        <div class="integration-grid">
+          <div class="integration-cell">HubSpot</div>
+          <div class="integration-cell">Salesforce</div>
+          <div class="integration-cell">Pipedrive</div>
+          <div class="integration-cell">GoHighLevel</div>
+          <div class="integration-cell">Google Calendar</div>
+          <div class="integration-cell">Outlook</div>
+          <div class="integration-cell">Twilio</div>
+          <div class="integration-cell">Zapier</div>
+          <div class="integration-cell">Make</div>
+          <div class="integration-cell">Stripe</div>
+          <div class="integration-cell">Mailchimp</div>
+          <div class="integration-cell">ActiveCampaign</div>
+        </div>
+
+        <p class="integration-caption">
+          Plus 40 more integrations through our API and workflow engine.
+        </p>
+        <div class="center">
+          <a href="/integrations" class="link-arrow">
+            See all integrations
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRICING SNAPSHOT + ONBOARDING ===== -->
+    <section class="section section-split">
+      <div class="container split-grid">
+        <div class="split-card">
+          <span class="eyebrow">Pricing</span>
+          <h2 class="section-title">One platform. Pricing built around your business</h2>
+          <p>Missless is priced on call volume, channels, and integrations. Not per seat. Not with hidden fees. Most teams launch on a plan that pays for itself inside the first month.</p>
+          <div class="split-ctas">
+            <a href="/pricing" class="btn btn-primary">See pricing</a>
+            <a href="/contact" class="btn btn-secondary">Get a custom quote</a>
+          </div>
+        </div>
+
+        <div class="split-card split-card-dark">
+          <span class="eyebrow eyebrow-light">Onboarding</span>
+          <h2 class="section-title">Live in days, not quarters</h2>
+          <ol class="onboard-steps">
+            <li>
+              <span class="onboard-num">1</span>
+              <div>
+                <strong>Connect:</strong>
+                <span>Securely link your phone, calendar, CRM, and messaging tools.</span>
+              </div>
+            </li>
+            <li>
+              <span class="onboard-num">2</span>
+              <div>
+                <strong>Configure:</strong>
+                <span>We build your conversation flows, scripts, and routing rules with you.</span>
+              </div>
+            </li>
+            <li>
+              <span class="onboard-num">3</span>
+              <div>
+                <strong>Launch:</strong>
+                <span>Go live, monitor performance, and refine continuously in real time.</span>
+              </div>
+            </li>
+          </ol>
+          <p class="onboard-foot">Most businesses are answering live calls within 5 to 7 business days.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section-faq" aria-labelledby="faq-heading">
+      <div class="container narrow">
+        <div class="section-head center">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="faq-heading" class="section-title">Frequently asked questions</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>Does Missless sound like a robot?</summary>
+            <p>No. The voices are natural, context-aware, and trained on real conversations. Most callers cannot tell they are speaking with AI, and the ones who can usually do not mind because they are getting answers immediately.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can Missless transfer calls to a real person?</summary>
+            <p>Yes. You define exactly when and how. Missless can hand off a call mid-conversation with a full summary, so your team picks up exactly where the AI left off.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What happens after hours, on weekends, or on holidays?</summary>
+            <p>Missless answers, qualifies, books, and follows up around the clock. You can set different behaviors for evenings, weekends, and holidays.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Will Missless work with my existing phone number?</summary>
+            <p>Yes. You can keep your current number and route calls through Missless, or use a new dedicated line.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How long does setup take?</summary>
+            <p>Most businesses go live in 5 to 7 business days. Larger multi-location or white-label setups may take a bit longer.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is my customer data secure?</summary>
+            <p>Yes. Calls, transcripts, and customer data are encrypted in transit and at rest. Missless follows industry-standard practices for storage, access control, and retention.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I cancel anytime?</summary>
+            <p>Yes. There are no long-term contracts. If Missless is not working for you, you are not locked in.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does Missless replace my team?</summary>
+            <p>No. Missless handles the first response, qualification, and booking. Your team focuses on the conversations and work that actually close revenue.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FINAL CTA ===== -->
+    <section class="section section-final" aria-labelledby="final-heading">
+      <div class="container">
+        <div class="final-card">
+          <h2 id="final-heading" class="final-title">
+            Every missed call is a <em>missed customer</em>
+          </h2>
+          <p class="final-sub">
+            See exactly how Missless would work for your business in a 15-minute walkthrough. No slide decks. No pressure. Just your real workflow, automated.
+          </p>
+          <div class="final-ctas">
+            <a href="/demo" class="btn btn-primary btn-lg">Book a demo</a>
+            <a href="#hear-it-in-action" class="btn btn-secondary btn-lg btn-secondary-inverse">See Missless in action</a>
+          </div>
+          <ul class="final-trust">
+            <li>No setup fees</li>
+            <li>Live in 5 to 7 days</li>
+            <li>Cancel anytime</li>
+            <li>Your data stays yours</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="nav-brand">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M3 12C3 7.029 7.029 3 12 3s9 4.029 9 9-4.029 9-9 9c-1.756 0-3.395-.503-4.78-1.373L3 21l1.373-4.22A8.96 8.96 0 0 1 3 12Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="2" fill="currentColor"/></svg>
+            </span>
+            <span class="brand-text">missless<span class="brand-dot">.</span></span>
+          </a>
+          <p class="footer-tagline">
+            The AI front office that never misses a lead.
+          </p>
+        </div>
+
+        <div>
+          <h4>Product</h4>
+          <ul>
+            <li><a href="/ai-receptionist">AI Receptionist</a></li>
+            <li><a href="/ai-sales-agent">AI Sales Agent</a></li>
+            <li><a href="/ai-messaging">AI Messaging</a></li>
+            <li><a href="/ai-workflow-engine">AI Workflow Engine</a></li>
+            <li><a href="/ai-intelligence">AI Intelligence</a></li>
+            <li><a href="/white-label">White Label</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="/solutions/home-services">Home Services</a></li>
+            <li><a href="/solutions/financial-services">Financial Services</a></li>
+            <li><a href="/solutions/healthcare">Healthcare and Dental</a></li>
+            <li><a href="/solutions/real-estate">Real Estate</a></li>
+            <li><a href="/solutions/retail">Retail and E-commerce</a></li>
+            <li><a href="/solutions/education">Education and Training</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/customers">Customers</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/integrations">Integrations</a></li>
+            <li><a href="/security">Security</a></li>
+            <li><a href="/help">Help Center</a></li>
+            <li><a href="/blog">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Missless. All rights reserved.</div>
+        <ul class="footer-legal">
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/terms">Terms of Service</a></li>
+          <li><a href="/cookies">Cookie Policy</a></li>
+          <li><a href="/dpa">DPA</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
